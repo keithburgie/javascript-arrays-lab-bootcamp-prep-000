@@ -20,8 +20,8 @@ function appendKitten(name) {
 }
 
 function prependKitten(name) {
-  [name, ...kittens]
-  return kittens;
+  var array = [name, ...kittens]
+  return array;
 }
 /*
   describe('appendKitten(name)', function() {

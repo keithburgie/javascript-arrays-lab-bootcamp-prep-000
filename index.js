@@ -14,9 +14,9 @@ function destructivelyRemoveFirstKitten() {
   kittens.shift();
 }
 
-function removeFirstKitten() {
-  kittens = kittens.slice(0);
-  return kittens;
+function removeFirstKitten(array) {
+  array = kittens.slice(1);
+  return array;
 }
 
 /*

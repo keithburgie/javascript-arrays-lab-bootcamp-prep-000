@@ -14,11 +14,14 @@ function destructivelyRemoveFirstKitten() {
   kittens.shift();
 }
 
+function prependKitten(name) {
+  kittens.
+}
+
 function removeLastKitten(array) {
   array = kittens.slice(0, kittens.length - 1);
   return array;
 }
-
 function removeFirstKitten(array) {
   array = kittens.slice(1);
   return array;

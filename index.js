@@ -22,18 +22,7 @@ function prependKitten(name) {
   [name, ...kittens]
   return kittens;
 }
-
-function removeLastKitten(array) {
-  array = kittens.slice(0, kittens.length - 1);
-  return array;
-}
-function removeFirstKitten(array) {
-  array = kittens.slice(1);
-  return array;
-}
-
 /*
-
   describe('appendKitten(name)', function() {
     it('appends a kitten to the kittens array and returns a new array, leaving the kittens array unchanged', function() {
       window.kittens = ['Milo', 'Otis', 'Garfield'];
@@ -52,3 +41,14 @@ function removeFirstKitten(array) {
     })
   })
 */
+
+
+function removeLastKitten(array) {
+  array = kittens.slice(0, kittens.length - 1);
+  return array;
+}
+function removeFirstKitten(array) {
+  array = kittens.slice(1);
+  return array;
+}
+

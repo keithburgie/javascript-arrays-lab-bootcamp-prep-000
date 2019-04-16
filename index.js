@@ -5,14 +5,12 @@ function destructivelyAppendKitten(name) {
   kittens.push(name);
 }
 
+function destructivelyPrependKitten(name) {
+  kittens.unshift(name)
+}
+
 /*
-  describe('destructivelyAppendKitten(name)', function() {
-    it('appends a kitten to the end of the kittens array', function() {
-      window.kittens = ['Milo', 'Otis', 'Garfield'];
-      destructivelyAppendKitten('Ralph')
-      expect(window.kittens).toEqual(["Milo", "Otis", "Garfield", "Ralph"])
-    })
-  })
+
 
   describe('destructivelyPrependKitten(name)', function() {
     it('prepends a kitten to the beginning of the kittens array', function() {

@@ -19,7 +19,7 @@ function appendKitten(name) {
 }
 
 function removeFirstKitten() {
-  kittens = kittens.slice(1);
+  kittens.slice(1);
   return kittens;
 }
 

@@ -14,11 +14,12 @@ function destructivelyRemoveFirstKitten() {
   kittens.shift();
 }
 
-
 function removeFirstKitten() {
   kittens = kittens.slice(1);
   return kittens;
 }
+
+/*
 
   describe('destructivelyRemoveFirstKitten()', function() {
     it('removes the First kitten from the kittens array', function() {
